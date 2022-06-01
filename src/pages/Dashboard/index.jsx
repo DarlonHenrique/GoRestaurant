@@ -13,10 +13,13 @@ function Dashboard() {
   const [modalOpen, setModalOpen] = useState(false)
   const [editModalOpen, setEditModalOpen] = useState(false)
 
-  useEffect(async () => {
-    const response = await api.get('/foods')
-    setFoods(response.data)
-  })
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await api.get('/foods')
+      setFoods(response.data)
+    }
+    fetchData()
+  }, [])
 
   const handleAddFood = async food => {
     try {
