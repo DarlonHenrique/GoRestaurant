@@ -10,7 +10,7 @@ import { FoodInterface } from '../../types'
 interface ModalAddFoodProps {
   isOpen: boolean
   setIsOpen: () => void
-  handleAddFood: (food: Object) => void
+  handleAddFood: (food: FoodInterface) => void
 }
 
 function ModalAddFood({ setIsOpen, handleAddFood, isOpen }: ModalAddFoodProps) {

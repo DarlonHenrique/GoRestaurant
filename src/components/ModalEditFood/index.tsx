@@ -10,7 +10,7 @@ import { FormHandles } from '@unform/core'
 interface ModalEditFoodProps {
   isOpen: boolean
   setIsOpen: () => void
-  handleUpdateFood: (food: Object) => void
+  handleUpdateFood: (food: FoodInterface) => void
   editingFood: FoodInterface
 }
 
