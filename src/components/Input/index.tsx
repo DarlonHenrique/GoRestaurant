@@ -2,9 +2,9 @@ import React, { useEffect, useRef, useState, useCallback } from 'react'
 import { useField } from '@unform/core'
 import { Container } from './styles'
 
-interface InputProps {
+interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
   name: string
-  icon: React.ComponentType<{ size: number }>
+  icon?: React.ComponentType<{ size: number }>
 }
 
 const Input = ({ name, icon: Icon, ...rest }: InputProps) => {
