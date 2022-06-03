@@ -1,4 +1,4 @@
-import { createRef, useRef } from 'react'
+import { useRef } from 'react'
 import { FiCheckSquare } from 'react-icons/fi'
 
 import { Form } from './styles'
@@ -20,7 +20,7 @@ function ModalEditFood({
   isOpen,
   editingFood
 }: ModalEditFoodProps) {
-  const formRef = createRef<FormHandles>()
+  const formRef = useRef<FormHandles>(null)
 
   const handleSubmit = async (data: FoodInterface) => {
     handleUpdateFood(data)
