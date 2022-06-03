@@ -10,19 +10,19 @@
     },
     {
       "id": 2,
-      "name": "Veggie",
+      "name": "Macaronne",
       "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
       "price": "21.90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
     },
     {
-      "id": 3,
-      "name": "A la Camarón",
-      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
-      "price": "25.90",
-      "available": false,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+      "image": "https://images.unsplash.com/photo-1595295333158-4742f28fbd85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+      "name": "Lo pratito",
+      "price": "50,50",
+      "description": "Muy ben feito el pratito de macarone com carne e legumes, receita de mi mama",
+      "available": true,
+      "id": 3
     }
   ]
 }

@@ -22,7 +22,7 @@ function Dashboard() {
       setFoods(response.data)
     }
     loadFoods()
-  })
+  }, [])
 
   const handleAddFood = async (food: FoodInterface) => {
     try {
